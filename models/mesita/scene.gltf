@@ -1,0 +1,297 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 372,
+      "max": [
+        1.2548428773880005,
+        2.3307175636291504,
+        0.81276047229766846
+      ],
+      "min": [
+        -1.3409402370452881,
+        -0.26725026965141296,
+        -0.27612599730491638
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4464,
+      "componentType": 5126,
+      "count": 372,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 594,
+      "max": [
+        371
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8928,
+      "componentType": 5126,
+      "count": 442,
+      "max": [
+        1.347905158996582,
+        1.2193466424942017,
+        0.91017889976501465
+      ],
+      "min": [
+        -1.4340022802352905,
+        -1.2193466424942017,
+        -2.7829537391662598
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 14232,
+      "componentType": 5126,
+      "count": 442,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2376,
+      "componentType": 5125,
+      "count": 684,
+      "max": [
+        441
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "pedro.coelhho (https://sketchfab.com/pedro.coelhho)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/criado-mudo-1-7aed03a7a10c483490b7127963ef05ee",
+      "title": "Criado mudo 1"
+    },
+    "generator": "Sketchfab-6.9.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 5112,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19536,
+      "byteOffset": 5112,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 24648,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.80000000000000004,
+          0.80000000000000004,
+          0.80000000000000004,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82394172574614266
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.001_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Cube_Material_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "554d736830524b28b9f39a0b5ad769a7.fbx"
+    },
+    {
+      "children": [
+        4,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        199.32019241037861,
+        0,
+        -70.267022994184813,
+        0,
+        -71.323966110097842,
+        -3.4950117782683545e-05,
+        -202.31832860931857,
+        0,
+        -1.1319861917274476e-05,
+        208.97862243652065,
+        -3.2110041950036932e-05,
+        0,
+        68.206474304199219,
+        606.615234375,
+        431.18081665039062,
+        1
+      ],
+      "name": "Cube.001"
+    },
+    {
+      "mesh": 0,
+      "name": "Cube.001_Material_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        202.31832860932121,
+        0,
+        -71.32396611009878,
+        0,
+        -71.323966110097842,
+        -3.4950117782683545e-05,
+        -202.31832860931857,
+        0,
+        -1.1620149026021921e-05,
+        214.52229309081744,
+        -3.2961839589389879e-05,
+        0,
+        -68.206474304199219,
+        604.93609619140625,
+        44.230316162109375,
+        1
+      ],
+      "name": "Cube"
+    },
+    {
+      "mesh": 1,
+      "name": "Cube_Material_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+

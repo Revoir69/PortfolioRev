@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello, World! - A-Frame</title>
+    <meta name="description" content="Portfolio Revoir">
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+    <script src="/js/mesa-manager.js"></script>
+  </head>
+  <body>
+
+        <script>
+            AFRAME.registerComponent('wireframe', {
+            dependencies: ['material'],
+             init: function () {
+             this.el.components.material.material.wireframe = true;
+                }
+            });
+        </script>
+
+    <a-scene>
+
+            <a-assets>
+                    <a-asset-item id="mesa" src="/models/scene.gltf"></a-asset-item>
+                    <a-asset-item id="cama" src="/models/cama/scene.gltf"></a-asset-item>
+                    <a-asset-item id="mesita" src="/models/mesita/scene.gltf"></a-asset-item>
+            </a-assets>
+
+
+
+      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" material="color: blue" wireframe></a-box> -->
+      <a-entity gltf-model="#mesita" scale="0.001 0.001 0.001" position="1.14 0 1.19015" rotation="0 -108.00577 0" mesa-manager></a-entity>
+      <a-entity gltf-model="#mesa" scale="0.016 0.01578 0.01578" position="0 1.203 -1.308" mesa-manager></a-entity>
+      <a-entity gltf-model="#cama" scale="0.0148 0.0146 0.0146" position="-0.071 0 3.292" rotation="0 -90.76761 0" mesa-manager></a-entity>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4" material="color: blue" wireframe></a-plane>
+      <a-sky color="#000000"></a-sky>
+
+
+    </a-scene>
+  </body>
+</html>
