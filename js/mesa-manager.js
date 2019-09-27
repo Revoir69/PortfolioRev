@@ -51,7 +51,7 @@ AFRAME.registerComponent('mesa-manager', {
  
   AFRAME.registerComponent('cursor-listener', {
     init: function () {
-      let text = document.querySelector("#txt-image");
+      let text = document.querySelector("#txt-img");
       this.el.addEventListener('click', function (evt) {
         n += 1;
         console.log(n);
@@ -59,7 +59,7 @@ AFRAME.registerComponent('mesa-manager', {
         if(n == 1){ 
             text.setAttribute("visible", "true");
         }
-        if(n == 3){
+        if(n == 2){
             window.open('portfolio.html', '_blank');
         }
         
