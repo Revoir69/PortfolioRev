@@ -46,3 +46,23 @@ AFRAME.registerComponent('mesa-manager', {
       });   
     }
   });
+
+  var n = 0;
+ 
+  AFRAME.registerComponent('cursor-listener', {
+    init: function () {
+      let text = document.querySelector("#txt-image");
+      this.el.addEventListener('click', function (evt) {
+        n += 1;
+        console.log(n);
+
+        if(n == 1){ 
+            text.setAttribute("visible", "true");
+        }
+        if(n == 3){
+            window.open('portfolio.html', '_blank');
+        }
+        
+      });
+    }
+  });
