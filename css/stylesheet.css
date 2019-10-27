@@ -1,0 +1,43 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#logo{
+    padding: 10px;
+}
+
+h3{
+
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 10px;
+    border-bottom: 2px;
+    border-bottom-color: #606060;
+    border-bottom-style: solid;
+    color: #606060;
+    
+
+}
+
+h4{
+    writing-mode: vertical-lr;
+    padding: 10px;
+    border-left: 2px;
+    border-left-color: #606060;
+    border-left-style: solid;
+    color: #606060;
+}
+
+.btn1{
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: 2px;
+    border-bottom-color: #606060;
+    border-bottom-style: solid;
+}
+
+.btn2{
+    height: 100px;
+    margin-top: 14px;
+}
+
