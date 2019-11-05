@@ -7,27 +7,17 @@
 
    
     <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    
     <link rel="stylesheet" href="./css/stylesheet.css">
-
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./gsap/TweenMax.min.js"></script>
+    <script type="text/javascript" src="./gsap/plugins/CSSPlugin.min.js"></script>
+    <script type="text/javascript" src="./gsap/TimelineMax.min.js"></script>
+    
     <title>Profile</title>
 
-    <style type="text/css">
-    .caja1{
-        background-color: aquamarine;
-        height: 50px;
-    }
-    .caja2{
-        background-color: blue;
-        height: 50px;
-    }
-    .caja3{
-        background-color: black;
-        height: 50px;
-    }
     
-    
-    </style>
   </head>
   <body>
 
@@ -40,53 +30,63 @@
                                    /_/ 
                                         -->
 
-<div class="container-fluid">
+    <div class="container-fluid">
 
-    <div class="row">
+        <div class="row">
 
-            <div class="col-3 col-xl-1 col-md-2 col-lg-2">
-                <a href="/"><img id="logo" src="./img/LogoJC.png" height="89" width="124"/></a>
+                <div class="col-3 col-xl-1 col-md-2 col-lg-2">
+                    <a href="/"><img id="logo" src="./img/LogoJC.png" height="89" width="124"/></a>
+                </div>
+                <div class="col-8 col-xl-6 col-md-6 col-lg-7">
+
+                    <h3>Juan's / Portfolio</h3>
+
+                </div>
+                <div class="col-1 col-xl-4 col-md-4 col-lg-3"></div>
+                
+
             </div>
-            <div class="col-8 col-xl-6 col-md-6 col-lg-7">
 
-                <h3>Juan's _/ Portfolio</h3>
+            <div class="row">
 
-            </div>
-            <div class="col-1 col-xl-4 col-md-4 col-lg-3"></div>
+                    <div class="col-2 col-lg-2 col-xl-1 btn1">
+                        
+                            <a href="./profile.html"><h4 class="profi">Profile</h4></a>
+                            <a href="./work.html"><h4>Work</h4></a>  
+
+                    </div>
+
+                    <div class="col-3 col-lg-2 col-xl-3">
+        
+                        <h1 class="glitch top"> 05.<br> 08.<br> 1996 </h1>
+                        <h1 class="glitch bottom"> 05.<br> 08.<br> 1996 </h1>
+                    </div>
+
+                    <div class="col-7 col-lg-7  col-xl-4">
+                        
+                        <p>Hi, my name is Juan Camilo Sánchez. I’m 23 years old.<br>I was born in Bogotá, Colombia. I went to Universidad Jorge Tadeo Lozano in Bogotá, Colombia and I’m now a proud interactive designer.<br>Right now I’m working at Bogotá as a interaction designer with awesome people. Contact me if you are looking for someone like me ;) </p>
+
+                    </div>
+                    <div class="col-12 col-lg-12 col-xl-4">
+
+                        <img id="photoP" src="./img/photoP.png" height="812" width="541"/>
+
+                    </div>
+                    
+        
+                </div>
+
             
 
         </div>
 
-        <div class="row">
 
-                <div class="col-2 col-lg-2 col-xl-1 btn1">
-                    
-                        <a href="./profile.html"><h4>Profile</h4></a>
-                        <a href="./work.html"><h4>Work</h4></a>  
 
-                </div>
 
-                <div class="col-3 col-lg-2 col-xl-2">
-    
-                    <h1> 05.<br> 08.<br> 1996 </h1>
-    
-                </div>
 
-                <div class="col-7 col-lg-7  col-xl-5">
-                    
-                    <p>Hi, my name is Juan Camilo Sánchez. I’m 23 years old.<br>I was born in Bogotá, Colombia. I went to Universidad Jorge Tadeo Lozano in Bogotá, Colombia and I’m now a proud interactive designer.<br>Right now I’m working at Bogotá as a interaction designer with awesome people. Contact me if you are looking for someone like me ;) </p>
 
-                </div>
-                <div class="col-12 col-lg-12 col-xl-4">
 
-                    <img id="photoP" src="./img/photoP.png" height="812" width="541"/>
 
-                </div>
-                
-    
-            </div>
-
-         
 
     </div>
 
@@ -98,22 +98,12 @@
 
 
 
-</div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="./js/lib/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

@@ -60,7 +60,7 @@ AFRAME.registerComponent('mesa-manager', {
             text.setAttribute("visible", "true");
         }
         if(n == 2){
-            window.open('profile.html');
+            window.open('profile.html', '_self');
         }
         
       });
