@@ -104,6 +104,41 @@ hr{
     z-index: 999;
 }
 
+.segundo{
+    display: none;
+}
+
+#logo_wc{
+    opacity:0;
+    margin-top: 350px;
+    margin-left: 140px;
+}
+
+.me1{
+    opacity:0;
+    margin-top: 200px;
+}
+
+.me2{
+    opacity:0;
+    margin-top: 300px;
+    font-size: 55px;
+}
+
+.me3{
+    opacity:0;
+    margin-top: 50px;
+    font-size: 75px;
+}
+
+#photoW{
+    padding-top: 30px;
+}
+
+h2{
+    font-size: 72px;
+}
+
 ::-webkit-scrollbar-thumb {
     background: #969696; 
     border-radius: 10px;
@@ -118,10 +153,18 @@ hr{
     width: 10px;
   }
 
+@media (max-width: 574px) {
+
+    h1 {
+        margin-top: 550px;
+    }
+
+}
+
 @media (max-width: 768px) {
     h1 {
         font-size: 70px;
-        margin-top: 550px;
+        margin-top: 150px;
     }
 
     p{
@@ -171,4 +214,22 @@ hr{
     p{
         margin-bottom: 200px;
     }
+
+    h1 {
+        
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 1280px) {
+
+    p{
+       margin-top: 10px;
+       font-size: 25px;
+    }
+
+    h1{
+        font-size: 144px; 
+    }
+
 }

@@ -41,10 +41,29 @@ $(document).ready(function() {
     }, function(){
         tl1.pause();
     }); 
- 
+
+
+    var tl2 = new TimelineMax();
+    tl2.set('.primero',  {display: 'none', delay: 3})
+    .set('.segundo', {display: 'block', delay: .4})
+    .to('.me1', .8, {opacity: 1, delay: 1})
+    .to('.me1', .8, {opacity: 0, delay:.4})
+    .to('.me3', .6, {opacity: 1})
+    .to('.me3', .6, {opacity: 0, delay:.4})
+    .to('.me2', .7, {opacity: 1})
+    .to('.me2', .7, {opacity: 0, delay:.4})
+    .to('.segundo', .8, {opacity: 0})
+    .set('.segundo', {display: 'none'})
+    .to('#logo_wc', 1, {opacity: 1, delay: 1})
+    .to('#logo_wc', .8, {opacity: 0, delay: 1.5})
+    .set('.first', {display: 'none'})
+    .set('.second', {display: 'block'})
+    .to('.second', .8, {opacity: 1})
 
     TweenMax.to('.profi', 1, {height: 200, delay: .5})
     TweenMax.to('.worki', 1, {height: 200, delay: .5})
+    TweenMax.set('.second', {display: 'none', opacity: 0})
+
 });
 
 
