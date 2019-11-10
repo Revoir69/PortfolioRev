@@ -46,23 +46,39 @@ $(document).ready(function() {
     var tl2 = new TimelineMax();
     tl2.set('.primero',  {display: 'none', delay: 3})
     .set('.segundo', {display: 'block', delay: .4})
+    .set('.segundo',  {display: 'none', delay: 2})
     .to('.me1', .8, {opacity: 1, delay: 1})
     .to('.me1', .8, {opacity: 0, delay:.4})
     .to('.me3', .6, {opacity: 1})
     .to('.me3', .6, {opacity: 0, delay:.4})
     .to('.me2', .7, {opacity: 1})
     .to('.me2', .7, {opacity: 0, delay:.4})
-    .to('.segundo', .8, {opacity: 0})
-    .set('.segundo', {display: 'none'})
-    .to('#logo_wc', 1, {opacity: 1, delay: 1})
-    .to('#logo_wc', .8, {opacity: 0, delay: 1.5})
+    .set('.me2, .me1',  {display: 'none'})
+    .set('#logo_wc',  {display: 'block'})
+    .to('#logo_wc', 2, {opacity: 1, y: 300, delay: 1})
+    .to('#logo_wc', .8, {opacity: 0, delay: .5})
     .set('.first', {display: 'none'})
     .set('.second', {display: 'block'})
     .to('.second', .8, {opacity: 1})
 
     TweenMax.to('.profi', 1, {height: 200, delay: .5})
     TweenMax.to('.worki', 1, {height: 200, delay: .5})
-    TweenMax.set('.second', {display: 'none', opacity: 0})
+    TweenMax.set('.second, .c1, .c2, .c3, .c4, .hr1, .hr2, .hr3', {display: 'none', opacity: 0})
+
+
+    var tl3 = new TimelineMax();
+    tl3.to('.c4', .6, {opacity: 1, display: 'block'})
+    .to('.c4', .8, {y: 190})
+    .set('.c4',  {y:0})
+    .set('.c3, .hr3',  {display: 'block'})
+    .to('.c3, .hr3', .6, {opacity: 1})
+    .to('.c4, .c3, .hr3', .8, {y: 190})
+    .set('.c4, .c3, .hr3',  {y:0})
+    .to('.c2, .hr2', .6, {opacity: 1, display: 'block'})
+    .to('.c4, .c3, .hr3, .c2, .hr2', .8, {y: 190})
+    .set('.c4, .c3, .hr3, .c2, .hr2',  {y:0})
+    .to('.c1, .hr1', .6, {opacity: 1, display: 'block'})
+
 
 });
 

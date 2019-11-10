@@ -110,8 +110,6 @@ hr{
 
 #logo_wc{
     opacity:0;
-    margin-top: 350px;
-    margin-left: 140px;
 }
 
 .me1{
@@ -150,16 +148,28 @@ h2{
   }
 
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
   }
 
-@media (max-width: 574px) {
 
-    h1 {
-        margin-top: 550px;
-    }
+  @media (max-width: 575px) {
+       
+    
+        h2{
+            font-size: 60px!important;
+        }
 
-}
+        h1 {
+            margin-top: 0px!important;
+            font-size: 70px!important;
+        }
+
+        .categories p {
+            font-size: 80px!important;
+        }
+            
+  }
+
 
 @media (max-width: 768px) {
     h1 {
@@ -208,12 +218,10 @@ h2{
     }
 
     .categories p{
-        font-size: 130px;
+        font-size: 120px;
     }
 
-    p{
-        margin-bottom: 200px;
-    }
+   
 
     h1 {
         
