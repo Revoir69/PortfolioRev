@@ -13,12 +13,38 @@
     <script type="text/javascript" src="./js/app.js"></script>
     <script type="text/javascript" src="./gsap/TweenMax.min.js"></script>
     <script type="text/javascript" src="./gsap/plugins/CSSPlugin.min.js"></script>
-    <script type="text/javascript" src="./gsap/plugins/ScrollToPlugin.min.js"></script>
     <script type="text/javascript" src="./gsap/TimelineMax.min.js"></script>
     
     <title>Profile</title>
 
+    <style>
+    h2{
+        font-size: 150px;
+    }
+
+    p{
+        padding: 20px;
+        margin-top: 0px;
+    }
+
+    @media (max-width: 1199px) {
     
+
+        h2 {
+            font-size: 85px;
+        }
+    }
+
+    @media (max-width: 1280px) {
+
+        
+
+        h2 {
+            font-size: 90px;
+        }
+
+    }
+    </style>
     
   </head>
   <body>
@@ -64,25 +90,31 @@
 
                     </div>
 
-                    <div class="col-10 col-lg-10 col-xl-11">
+                    <div class="col-10 col-lg-4 col-xl-4">
                         
-                        <div class="categories">
-
-                        <a href="purr.html" style="text-decoration: none; color:black;"><p class="category c1">UI/UX</p></a>
-                        <hr class="hr1" width="70%">
-                        <a href="#" style="text-decoration: none; color:black;"><p class="category c2">VR/AR</p></a>
-                        <hr class="hr2" width="70%">
-                        <a href="inner.html" style="text-decoration: none; color:black;"><p class="category c3">Photography</p></a>
-                        <hr class="hr3" width="70%">
-                        <a href="lis.html" style="text-decoration: none; color:black;"><p class="category c4">Videogames</p></a>
-
-
-                        </div>
-                        
+                        <p>Lis es un videojuego de scroll lateral con el que se pretende sensibilizar a la gente sobre los distintos sentimientos que sufre alguien con depresión y ansiedad. Con su música y su historia genera un ambiente de relajación y paz.</p>
+                        <hr>
+                        <h2>Lis</h2>
 
                     </div>
 
+                    <div class="col-12 col-lg-6 col-xl-7">
 
+                            <div class="categories">
+
+                                <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/pSm09vqPGYc" allowfullscreen></iframe></div>
+                                    
+                                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641174670&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                                
+                                    <img id="photoW" class="img-fluid" src="./img/lis01.jpg"  width="1000" />
+                                    <img id="photoW" class="img-fluid" src="./img/lis02.jpg"  width="1000" />
+                                    <img id="photoW" class="img-fluid" src="./img/lis03.jpg"  width="1000" />
+        
+
+
+                            </div>
+
+                    </div>
 
         
                 </div>
