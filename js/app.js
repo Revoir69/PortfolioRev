@@ -63,7 +63,7 @@ $(document).ready(function() {
 
     TweenMax.to('.profi', 1, {height: 200, delay: .5})
     TweenMax.to('.worki', 1, {height: 200, delay: .5})
-    TweenMax.set('.second, .c1, .c2, .c3, .c4, .hr1, .hr2, .hr3', {display: 'none', opacity: 0})
+    TweenMax.set('.second, .c1, .c2, .c3, .c4, .hr1, .hr2, .hr3, .txt-wrk, .tlt-wrk, .wrk', {display: 'none', opacity: 0})
 
 
     var tl3 = new TimelineMax();
@@ -78,6 +78,21 @@ $(document).ready(function() {
     .to('.c4, .c3, .hr3, .c2, .hr2', .8, {y: 190})
     .set('.c4, .c3, .hr3, .c2, .hr2',  {y:0})
     .to('.c1, .hr1', .6, {opacity: 1, display: 'block'})
+
+    var tl4 = new TimelineMax();
+    tl4.to('.txt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.txt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.txt-wrk', .1, {display: 'block'})
+    .to('.txt-wrk', 1, {opacity: 1})
+    .to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.tlt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.tlt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.tlt-wrk', .1, {display: 'block'})
+    .to('.tlt-wrk', 1, {opacity: 1})
+    .to('.wrk', 1, {opacity: 1, display: 'block'})
 
 
 });
