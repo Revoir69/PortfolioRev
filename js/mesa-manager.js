@@ -53,15 +53,25 @@ AFRAME.registerComponent('mesa-manager', {
     init: function () {
       let text = document.querySelector("#txt-img");
       this.el.addEventListener('click', function (evt) {
-        n += 1;
+        
         console.log(n);
 
-        if(n == 1){ 
             text.setAttribute("visible", "true");
-        }
-        if(n == 2){
+        
+        
+      });
+    }
+  });
+
+  AFRAME.registerComponent('cursor-listener1', {
+    init: function () {
+      let text = document.querySelector("#txt-img");
+      this.el.addEventListener('click', function (evt) {
+        
+        console.log(n);
+
             window.open('menu.html', '_self');
-        }
+        
         
       });
     }

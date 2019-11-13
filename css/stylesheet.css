@@ -94,6 +94,7 @@ hr{
     overflow-x: auto; 
     height: 85vh;
     z-index: 1;
+    text-align: center;
 }
 
 .categories a:hover{
@@ -149,6 +150,11 @@ h2{
 
   ::-webkit-scrollbar {
     width: 7px;
+  }
+
+  .vidpad{
+      margin-top: 10px!important;
+      margin-bottom: 10px!important;
   }
 
 
