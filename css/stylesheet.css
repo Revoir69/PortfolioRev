@@ -50,7 +50,6 @@ h4{
 
 h1{
     font-size: 175px;
-    margin-top: 200px;
 }
 
 .bottom {
@@ -100,6 +99,10 @@ hr{
 
 .categories a:hover{
     color: #606060!important;
+}
+
+.tlt-wrk{
+    font-size: 100px!important;
 }
 
 .botonera{
