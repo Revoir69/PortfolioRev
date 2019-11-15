@@ -159,7 +159,7 @@ h2{
   }
 
 
-  @media (min-width: 500px) and (max-width: 767px){
+  @media (max-width: 500px){
        
     
         h2{
@@ -191,7 +191,7 @@ h2{
         }
 
 
-@media (min-width: 768px) and (max-width: 990px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 70px!important;
         margin-top: 150px;
@@ -222,7 +222,7 @@ h2{
     
 }
 
-@media (min-width: 991px) and (max-width: 1198px) {
+@media (max-width: 991px) {
     
     #photoP{
         padding: 70px;
