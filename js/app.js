@@ -72,17 +72,19 @@ $(document).ready(function() {
     TweenMax.to('.worki', 1, {height: 200, delay: .5})
     TweenMax.set('.second, .c1, .c2, .c3, .c4, .hr1, .hr2, .hr3, .txt-wrk, .tlt-wrk, .wrk', {display: 'none', opacity: 0})
 
+    var alturaC = $(".category").outerHeight(true) +20
+    console.log(alturaC);
 
     var tl3 = new TimelineMax();
     tl3.to('.c4', .6, {opacity: 1, display: 'block'})
-    .to('.c4', .8, {y: 190})
+    .to('.c4', .8, {y: alturaC})
     .set('.c4',  {y:0})
     .set('.c3, .hr3',  {display: 'block'})
     .to('.c3, .hr3', .6, {opacity: 1})
-    .to('.c4, .c3, .hr3', .8, {y: 190})
+    .to('.c4, .c3, .hr3', .8, {y: alturaC})
     .set('.c4, .c3, .hr3',  {y:0})
     .to('.c2, .hr2', .6, {opacity: 1, display: 'block'})
-    .to('.c4, .c3, .hr3, .c2, .hr2', .8, {y: 190})
+    .to('.c4, .c3, .hr3, .c2, .hr2', .8, {y: alturaC})
     .set('.c4, .c3, .hr3, .c2, .hr2',  {y:0})
     .to('.c1, .hr1', .6, {opacity: 1, display: 'block'})
 
