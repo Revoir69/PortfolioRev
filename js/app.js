@@ -87,18 +87,18 @@ $(document).ready(function() {
     .to('.c1, .hr1', .6, {opacity: 1, display: 'block'})
 
     var tl4 = new TimelineMax();
-    tl4.to('.txt-wrk', .1, {opacity: 1, display: 'block'})
-    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
-    .to('.txt-wrk', .1, {opacity: 1, display: 'block'})
-    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
-    .to('.txt-wrk', .1, {display: 'block'})
-    .to('.txt-wrk', 1, {opacity: 1})
-    .to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
+    tl4.to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
     .to('.tlt-wrk', .1, {opacity: 0, display: 'none'})
     .to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
     .to('.tlt-wrk', .1, {opacity: 0, display: 'none'})
     .to('.tlt-wrk', .1, {display: 'block'})
     .to('.tlt-wrk', 1, {opacity: 1})
+    .to('.txt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.txt-wrk', .1, {opacity: 1, display: 'block'})
+    .to('.txt-wrk', .1, {opacity: 0, display: 'none'})
+    .to('.txt-wrk', .1, {display: 'block'})
+    .to('.txt-wrk', 1, {opacity: 1})
     .to('.wrk', 1, {opacity: 1, display: 'block'})
 
 
