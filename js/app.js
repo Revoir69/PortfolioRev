@@ -60,13 +60,13 @@ $(document).ready(function() {
     .to('.me3', .6, {opacity: 0, delay:.4})
     .to('.me2', .7, {opacity: 1})
     .to('.me2', .7, {opacity: 0, delay:.4})
-    /* .set('.me2, .me1',  {display: 'none'})
+    .set('.me2, .me1',  {display: 'none'})
     .set('#logo_wc',  {display: 'block'})
     .to('#logo_wc', 2, {opacity: 1, y: 300, delay: 1})
     .to('#logo_wc', .8, {opacity: 0, delay: .5})
     .set('.first', {display: 'none'})
     .set('.second', {display: 'block'})
-    .to('.second', .8, {opacity: 1}) */
+    .to('.second', .8, {opacity: 1})
 
     TweenMax.to('.profi', 1, {height: 200, delay: .5})
     TweenMax.to('.worki', 1, {height: 200, delay: .5})
