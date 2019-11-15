@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+    $( ".pasar" ).click(function() {
+        var tl = new TimelineMax();
+        tl.set('.first', {display: 'none'})
+        .set('.second', {display: 'block'})
+         .to('.second', .8, {opacity: 1})
+      });
+
     var tl = new TimelineMax({repeat: -1,repeatDelay: 4});
 
         tl.to('.glitch', 0.1, {skewX:70,ease: Power4.easeInOut})
