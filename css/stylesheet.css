@@ -1,5 +1,6 @@
 html, body, .container {
     height: 100%;
+    cursor: crosshair;
 }
 
 body{
