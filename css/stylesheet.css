@@ -24,19 +24,41 @@ h3{
 
 }
 
+.pasar {
+    padding: 5px;     
+    margin-top: 0px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    }
+
+.cardFront, .cardBack{
+  position:absolute;
+  width: 770px;
+  height: 450px;
+  background: #fff;
+  backface-visibility: hidden;
+  border: 2px;
+    border-color: #606060;
+    border-style: solid;
+  
+}
+
 h4{
     writing-mode: vertical-lr;
-    padding: 8px;
+    padding: 6px;
+    padding-bottom: 10px;
     border-left: 2px;
     border-left-color: #606060;
     border-left-style: solid;
     color: #606060;
-    border-bottom: 2px;
-    border-bottom-color: #606060;
-    border-bottom-style: solid;
+    border-top: 2px;
+    border-top-color: #606060;
+    border-top-style: solid;
     height: 100px;
     margin-left: 0;
-}
+    font-size: 22px;
+    }
 
 .btn1{
     height: 100px;
@@ -163,6 +185,10 @@ h2{
       margin-bottom: 15px!important;
   }
 
+  .logoC{
+    margin-top: 50px;
+  }
+
 
   @media (max-width: 500px) and (max-width: 767px){
        
@@ -186,11 +212,28 @@ h2{
             font-size: 20px!important;
             margin-left: -5px;
         }
+
+        .logoC{
+            margin-top: 30px;
+            width: 200px;
+          }
             
     
         h3{
             font-size: 25px!important;
         }
+
+        .cardFront, .cardBack{
+            position:absolute;
+            width: 400px!important  ;
+            height: 250px!important ;
+            background: #fff;
+            backface-visibility: hidden;
+            border: 2px;
+              border-color: #606060;
+              border-style: solid;
+            
+          }
 
 
         }
@@ -204,7 +247,7 @@ h2{
 
     h4{
         padding: 5px!important;
-        font-size: 25px!important;
+        font-size: 20px!important;
         margin-left: 0px;
     }
 
@@ -259,7 +302,7 @@ h2{
 
     h4{
         padding: 5px!important;
-        font-size: 25px!important;
+        font-size: 25px;
         margin-left: 0px;
     }
 
