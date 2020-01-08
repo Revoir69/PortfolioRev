@@ -76,17 +76,17 @@ $(document).ready(function() {
     console.log(alturaC);
 
     var tl3 = new TimelineMax();
-    tl3.to('.c4', .6, {opacity: 1, display: 'block'})
-    .to('.c4', .8, {y: alturaC})
+    tl3.to('.c4', .4, {opacity: 1, display: 'block'})
+    .to('.c4', .5, {y: alturaC})
     .set('.c4',  {y:0})
     .set('.c3, .hr3',  {display: 'block'})
-    .to('.c3, .hr3', .6, {opacity: 1})
-    .to('.c4, .c3, .hr3', .8, {y: alturaC})
+    .to('.c3, .hr3', .4, {opacity: 1})
+    .to('.c4, .c3, .hr3', .5, {y: alturaC})
     .set('.c4, .c3, .hr3',  {y:0})
-    .to('.c2, .hr2', .6, {opacity: 1, display: 'block'})
-    .to('.c4, .c3, .hr3, .c2, .hr2', .8, {y: alturaC})
+    .to('.c2, .hr2', .4, {opacity: 1, display: 'block'})
+    .to('.c4, .c3, .hr3, .c2, .hr2', .5, {y: alturaC})
     .set('.c4, .c3, .hr3, .c2, .hr2',  {y:0})
-    .to('.c1, .hr1', .6, {opacity: 1, display: 'block'})
+    .to('.c1, .hr1', .4, {opacity: 1, display: 'block'})
 
     var tl4 = new TimelineMax();
     tl4.to('.tlt-wrk', .1, {opacity: 1, display: 'block'})
