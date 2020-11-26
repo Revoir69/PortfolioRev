@@ -70,7 +70,7 @@ AFRAME.registerComponent('mesa-manager', {
         
         console.log(n);
 
-            window.open('menu.html', '_self');
+            window.open('welcome.html', '_self');
         
         
       });
